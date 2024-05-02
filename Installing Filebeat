@@ -1,0 +1,9 @@
+# Downloading and Installing Filebeat:
+# First Install ELK and then install Filebeat
+
+
+sudo wget https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.2.0-amd64.deb
+
+sudo dpkg -i filebeat-7.2.0-amd64.deb
+
+
