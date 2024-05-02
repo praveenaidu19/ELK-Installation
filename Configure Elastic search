@@ -19,3 +19,7 @@ sudo nano /etc/kibana/kibana.yml
 UNCHECK - means remove #command 
 server.port: 5601
 server.host: "localhost"
+
+sudo systemctl start kibana
+sudo systemctl status kibana
+
