@@ -13,3 +13,9 @@ http.port: 9200
 sudo systemctl start elasticsearch
 sudo systemctl status elasticsearch
 
+
+sudo nano /etc/kibana/kibana.yml
+
+UNCHECK - means remove #command 
+server.port: 5601
+server.host: "localhost"
