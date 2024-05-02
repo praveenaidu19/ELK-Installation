@@ -1,0 +1,11 @@
+#Configure Elastic search 
+
+sudo nano /etc/elasticsearch/elasticsearch.yml
+
+once you open 
+
+UNCHECK - means remove #command 
+cluster.name: my-application
+node.name: node-1
+network.host: localhost  ( change the ipaddress to localhost )
+http.port: 9200
