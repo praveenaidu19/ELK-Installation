@@ -10,5 +10,6 @@ node.name: node-1
 network.host: localhost  ( change the ipaddress to localhost )
 http.port: 9200
 
-systemctl start elasticsearch
+sudo systemctl start elasticsearch
+sudo systemctl status elasticsearch
 
